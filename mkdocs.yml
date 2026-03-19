@@ -1,0 +1,34 @@
+site_name: Ciência da Computação
+site_url: https://NandesLima.github.io/computer-science/
+site_description: Um caminho open-source para educação autodidata em Ciência da Computação.
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - navigation.tabs
+    - navigation.expand
+  palette:
+    - scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para modo claro
+
+extra_css:
+  - stylesheets/custom.css
+  - stylesheets/global-modern.css
+
+nav:
+  - 'Início': index.md
+  - 'Currículo': README.md
+  - 'Sobre': FAQ.md
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - tables
